@@ -1,0 +1,55 @@
+.cardMovie{
+
+
+    border-radius: 23px;
+    overflow: hidden;
+    position: relative;
+    flex-basis: 23%;
+    min-width: 300px;
+}
+
+.cardMovie .img{
+    width: 339px;
+    height: 467px;  
+
+}
+
+.overshadow{
+    border-radius: 23px;
+    background-color: black;
+    opacity: 0.6;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 339px;
+   height: 467px;
+   transition-duration: 0.4s;
+}
+
+.titleMovie{
+padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* position: absolute;
+    top: 100%;
+    left: 0;
+    width: 339px;
+    height: 467px;
+    transition-duration: 0.4s; */
+    color: white;
+}
+
+.cardMovie:hover .overshadow{
+    top: 0;
+}
+
+
+
+.titleMovie h4{
+
+    text-align: center;
+    padding:  0 20px;
+}

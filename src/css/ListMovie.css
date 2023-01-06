@@ -1,0 +1,22 @@
+.listCards{
+margin-top: 50px;
+ background-color: #fff;
+    height: 100%;
+    padding: 30px;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+column-gap: 25px;
+row-gap: 25px;
+
+border-radius: 20px;
+align-items: center;
+}
+
+.pages{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

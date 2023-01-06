@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+body{
+
+  background-color: #F4F7FD;
+}
+
+
+@media (max-width: 600px) {
+  
+}
